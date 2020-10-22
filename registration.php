@@ -4,6 +4,6 @@
  * See COPYING.txt for license details.
  */
 
-use \Magento\Framework\Component\ComponentRegistrar;
+use Magento\Framework\Component\ComponentRegistrar;
 
-ComponentRegistrar::register(ComponentRegistrar::THEME, 'frontend/Micronzone/luma_child', __DIR__);
+ComponentRegistrar::register(ComponentRegistrar::THEME, 'frontend/Micronzone/child', __DIR__);
